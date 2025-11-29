@@ -40,6 +40,7 @@ EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
 
 INSTALLED_APPS = [
+    'contact_form.apps.ContactFormConfig'
     'rest_framework',
     'corsheaders',
     'django.contrib.admin',
